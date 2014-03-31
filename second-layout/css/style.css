@@ -1,5 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300);
+
 body {
 	background-color: #0d2643;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 section {
@@ -79,8 +82,8 @@ header {
 	background-image: url(../img/graveyard-logo.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	width: 530px;
-	height: 116px;
+	width: 840px;
+	height: 255px;
 	margin: 0px auto;
 	position: relative;
 	top: 250px;
@@ -96,6 +99,29 @@ header {
 	width: 100%;
 	height: auto;
 	background-color: #071930;
+}
+
+.navBar ul {
+	margin: 0;
+	padding: 0;
+}
+
+.navBar ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+.navBar ul li a {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 30px;
+	font-weight: 400;
+	color: #c0c9df;
+}
+
+.navBar ul li a:hover {
+	text-decoration: none;
+	color: #255087;
 }
 
 /*********************************NAVBAR********************************/
