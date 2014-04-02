@@ -24,6 +24,8 @@
     <!--Graveyard-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/media.css">
+
+
   </head>
   <body>
     <!--Container-->
@@ -41,10 +43,24 @@
           <li><a href="">Serviços</a></li>
           <li><a href="">Equipe</a></li>
           <li><a href="">Portfólio</a></li>
-          <li><a href="">Contato</a></li>
+          <li><a class="last-child" href="">Contato</a></li>
         </ul>
       </div><!--End barra de navegação-->
-      <section class="color1">1</section>
+      <!--Seção Home-->
+      <section class="color1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Home</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              Descrição
+            </div>
+          </div>
+        </div>
+      </section><!--End seção Home-->
       <div class="divider"><img src="img/divider-image.png"></div>
       <section class="color2">2</section>
       <div class="divider"><img src="img/divider-image.png"></div>
@@ -58,5 +74,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".navBar").sticky({topSpacing:0});
+      });
+    </script>
   </body>
 </html>
