@@ -1,14 +1,13 @@
 @media screen and (min-width: 1920px) {
 
-	#slide1 {
+	header {
 		margin: 0;
-		background:url('../img/header-background.jpg') 100% no-repeat fixed;
+		background-image: url(../img/header-background.jpg);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		width: 100%;
-		height: 1080px;
-		min-height: 1080px;
-		background-size: cover;
+		height: 1000px;
+		min-height: 1000px;
 	}
 
 	#logo {
@@ -19,263 +18,60 @@
 		height: 285px;
 		margin: 0px auto;
 		position: relative;
-		top: 180px;
+		top: 365px;
 	}
 
-	#slide2 {
+	.color1 {
 		background-color: #1b324c;
 		background-image: url(../img/background-section1.png);
-		background-size: 100% 100%;
+		background-size: 100%;
 		background-repeat: no-repeat;
-		height: 1080px;
-		overflow: hidden;
+		height: 1450px;
 	}
 
-	#slide3 {
+	.color2 {
 		background-color: #032755;
 		background-image: url(../img/background-section2.png);
-		background-size: 100% 100%;
+		background-size: 100%;
 		background-repeat: no-repeat;
-		height: 1080px;
+		height: 1070px;
 	}
 
-	#slide4 {
+	.color3 {
 		background-color: #01152e;
 		background-image: url(../img/background-section3.png);
-		background-size: 100% 100%;
+		background-size: 100%;
 		background-repeat: no-repeat;
-		height: 1080px;
+		height: 1070px;
 	}
 
-	#slide5 {
+	.color4 {
 		background-color: #1a3554;
 		background-image: url(../img/background-section4.png);
-		background-size: 100% 100%;
+		background-size: 100%;
 		background-repeat: no-repeat;
-		height: 1080px;
+		height: 1070px;
 	}
 
-	#slide6 {
+	.color5 {
 		background-image: url(../img/background-section5.png);
-		background-size: 100% 100%;
+		background-size: 100%;
 		background-repeat: no-repeat;
-		height: 1080px;
+		height: 1070px;
 	}
 }
 
 
 @media screen and (min-width: 1600px) and (max-width:1919px) {
 
-	#slide1 {
+	header {
 		margin: 0;
-		background:url('../img/header-background.jpg') 100% no-repeat fixed;
+		background-image: url(../img/header-background.jpg);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		width: 100%;
-		height: 1000px;
-		min-height: 1000px;
-		background-size: cover;
-	}
-
-	#logo {
-		background-image: url(../img/graveyard-logo1920.png);
-		background-size: 100%;
-		background-repeat: no-repeat;
-		width: 1200px;
-		height: 285px;
-		margin: 0px auto;
-		position: relative;
-		top: 100px;
-	}
-
-	#slide2 {
-		background-color: #1b324c;
-		background-image: url(../img/background-section1.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		height: 1000px;
-		overflow: hidden;
-	}
-
-	#slide3 {
-		background-color: #032755;
-		background-image: url(../img/background-section2.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		height: 1000px;
-	}
-
-	#slide4 {
-		background-color: #01152e;
-		background-image: url(../img/background-section3.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		height: 1000px;
-	}
-
-	#slide5 {
-		background-color: #1a3554;
-		background-image: url(../img/background-section4.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		height: 1000px;
-	}
-
-	#slide6 {
-		background-image: url(../img/background-section5.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		height: 1000px;
-	}
-}
-
-@media screen and (min-width:1440px) and (max-width: 1599px) {
-
-	#slide1 {
-		margin: 0;
-		background:url('../img/header-background.jpg') 100% no-repeat fixed;
-		background-size: 100%;
-		background-repeat: no-repeat;
-		width: 100%;
-		height: 900px;
-		min-height: 900px;
-		background-size: cover;
-	}
-
-	#logo {
-		background-image: url(../img/graveyard-logo1920.png);
-		background-size: 100%;
-		background-repeat: no-repeat;
-		width: 1200px;
-		height: 285px;
-		margin: 0px auto;
-		position: relative;
-		top: 100px;
-	}
-
-	#slide2 {
-		background-color: #1b324c;
-		background-image: url(../img/background-section1.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		height: 900px;
-		overflow: hidden;
-	}
-
-	#slide3 {
-		background-color: #032755;
-		background-image: url(../img/background-section2.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		height: 900px;
-	}
-
-	#slide4 {
-		background-color: #01152e;
-		background-image: url(../img/background-section3.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		height: 900px;
-	}
-
-	#slide5 {
-		background-color: #1a3554;
-		background-image: url(../img/background-section4.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		height: 900px;
-	}
-
-	#slide6 {
-		background-image: url(../img/background-section5.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		height: 900px;
-	}
-}
-
-
-
-
-
-@media screen and (min-width: 1366px) and (max-width: 1439px) {
-
-	#slide1 {
-		margin: 0;
-		background:url('../img/header-background.jpg') 100% no-repeat fixed;
-		background-size: 100%;
-		background-repeat: no-repeat;
-		width: 100%;
-		height: 768px;
-		min-height: 768px;
-		background-size: cover;
-	}
-
-	#logo {
-		background-image: url(../img/graveyard-logo1920.png);
-		background-size: 100%;
-		background-repeat: no-repeat;
-		width: 1200px;
-		height: 285px;
-		margin: 0px auto;
-		position: relative;
-		top: 10px;
-	}
-
-	#slide2 {
-		background-color: #1b324c;
-		background-image: url(../img/background-section1.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		height: 900px;
-		overflow: hidden;
-	}
-
-	#slide3 {
-		background-color: #032755;
-		background-image: url(../img/background-section2.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		height: 900px;
-	}
-
-	#slide4 {
-		background-color: #01152e;
-		background-image: url(../img/background-section3.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		height: 900px;
-	}
-
-	#slide5 {
-		background-color: #1a3554;
-		background-image: url(../img/background-section4.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		height: 900px;
-	}
-
-	#slide6 {
-		background-image: url(../img/background-section5.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		height: 900px;
-	}
-}
-
-
-
-@media screen and (min-width: 1024px) and (max-width: 1365px) {
-
-	#slide1 {
-		margin: 0;
-		background:url('../img/header-background.jpg') 100% no-repeat fixed;
-		background-size: 100%;
-		background-repeat: no-repeat;
-		width: 100%;
-		height: 900px;
-		min-height: 900px;
-		background-size: cover;
+		height: 830px;
+		min-height: 830px;
 	}
 
 	#logo {
@@ -286,46 +82,240 @@
 		height: 255px;
 		margin: 0px auto;
 		position: relative;
-		top: 10px;
+		top: 320px;
 	}
 
-	#slide2 {
+		.color1 {
 		background-color: #1b324c;
 		background-image: url(../img/background-section1.png);
-		background-size: 100% 100%;
+		background-size: 100%;
 		background-repeat: no-repeat;
-		height: 900px;
-		overflow: hidden;
+		height: 1215px;
 	}
 
-	#slide3 {
+	.color2 {
 		background-color: #032755;
 		background-image: url(../img/background-section2.png);
-		background-size: 100% 100%;
+		background-size: 100%;
 		background-repeat: no-repeat;
-		height: 900px;
+		height: 890px;
 	}
 
-	#slide4 {
+	.color3 {
 		background-color: #01152e;
 		background-image: url(../img/background-section3.png);
-		background-size: 100% 100%;
+		background-size: 100%;
 		background-repeat: no-repeat;
-		height: 900px;
+		height: 890px;
 	}
 
-	#slide5 {
+	.color4 {
 		background-color: #1a3554;
 		background-image: url(../img/background-section4.png);
-		background-size: 100% 100%;
+		background-size: 100%;
 		background-repeat: no-repeat;
-		height: 900px;
+		height: 890px;
 	}
 
-	#slide6 {
+	.color5 {
 		background-image: url(../img/background-section5.png);
-		background-size: 100% 100%;
+		background-size: 100%;
 		background-repeat: no-repeat;
-		height: 768px;
+		height: 890px;
+	}
+}
+
+@media screen and (min-width:1440px) and (max-width: 1599px) {
+
+	header {
+		margin: 0;
+		background-image: url(../img/header-background.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 750px;
+		min-height: 750px;
+	}
+
+	#logo {
+		background-image: url(../img/graveyard-logo.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		width: 840px;
+		height: 255px;
+		margin: 0px auto;
+		position: relative;
+		top: 300px;
+	}
+
+	.color1 {
+		background-color: #1b324c;
+		background-image: url(../img/background-section1.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 1085px;
+	}
+
+	.color2 {
+		background-color: #032755;
+		background-image: url(../img/background-section2.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 805px;
+	}
+
+	.color3 {
+		background-color: #01152e;
+		background-image: url(../img/background-section3.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 805px;
+	}
+
+	.color4 {
+		background-color: #1a3554;
+		background-image: url(../img/background-section4.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 805px;
+	}
+
+	.color5 {
+		background-image: url(../img/background-section5.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 805px;
+	}
+}
+
+
+
+
+
+@media screen and (min-width: 1366px) and (max-width: 1439px) {
+
+	header {
+		margin: 0;
+		background-image: url(../img/header-background.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 677px;
+		min-height: 677px;
+	}
+
+	#logo {
+		background-image: url(../img/graveyard-logo.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		width: 840px;
+		height: 255px;
+		margin: 0px auto;
+		position: relative;
+		top: 230px;
+	}
+
+	.color1 {
+		background-color: #1b324c;
+		background-image: url(../img/background-section1.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 1025px;
+	}
+
+	.color2 {
+		background-color: #032755;
+		background-image: url(../img/background-section2.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 760px;
+	}
+
+	.color3 {
+		background-color: #01152e;
+		background-image: url(../img/background-section3.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 760px;
+	}
+
+	.color4 {
+		background-color: #1a3554;
+		background-image: url(../img/background-section4.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 760px;
+	}
+
+	.color5 {
+		background-image: url(../img/background-section5.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 760px;
+	}
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+
+	header {
+		margin: 0;
+		background-image: url(../img/header-background.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 535px;
+		min-height: 535px;
+	}
+
+	#logo {
+		background-image: url(../img/graveyard-logo.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		width: 760px;
+		height: 255px;
+		margin: 0px auto;
+		position: relative;
+		top: 160px;
+	}
+
+	.color1 {
+		background-color: #1b324c;
+		background-image: url(../img/background-section1.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 770px;
+	}
+
+	.color2 {
+		background-color: #032755;
+		background-image: url(../img/background-section2.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 565px;
+	}
+
+	.color3 {
+		background-color: #01152e;
+		background-image: url(../img/background-section3.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 565px;
+	}
+
+	.color4 {
+		background-color: #1a3554;
+		background-image: url(../img/background-section4.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 565px;
+	}
+
+	.color5 {
+		background-image: url(../img/background-section5.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 565px;
 	}
 }
