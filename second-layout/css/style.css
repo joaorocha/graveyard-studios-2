@@ -17,7 +17,7 @@ section {
 }
 
 
-.color1 {
+/*.color1 {
 	background-color: #1b324c;
 	background-image: url(../img/background-section1.png);
 	background-size: 100%;
@@ -61,16 +61,16 @@ section {
 	width: 100%;
 	height: 15px;
 	position: absolute;
-}
+}*/
 
-.divider img {
-	position: absolute;
+/*.divider img {
+	position: relative;
 	left: 49%;
 	top: -30px;
-}
+}*/
 
 /*********************************HEADER********************************/
-header {
+/*header {
 	margin: 0;
 	background-image: url(../img/header-background.jpg);
 	background-size: 100%;
@@ -78,7 +78,7 @@ header {
 	width: 100%;
 
 }
-
+*/
 #logo {
 	background-image: url(../img/graveyard-logo.png);
 	background-size: 100%;
@@ -138,3 +138,61 @@ header {
 	margin-right: 0px !important;
 }
 /*********************************NAVBAR********************************/
+
+
+
+#slide1, #slide2{ width: 100%; }
+
+#slide1{
+	background:url('../img/header-background.jpg') 100% no-repeat fixed;
+	height: 850px;
+	margin: 0;
+	padding: 200px 0 260px 0;
+	background-size: cover;
+}
+
+#slide2{
+	background: url('../img/background-section1.png') 100% 20% no-repeat fixed;
+	background-color: #1b324c;
+	background-size: 100%;
+	height: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0;
+	width: 100%
+}
+
+#slide3{
+	background: url('../img/background-section2.png') 100% no-repeat fixed;
+	background-size: 100%;
+	background-color: #032755;
+	height: 900px;
+	padding: 170px 0 0 0;	
+	background-size: cover;
+}
+
+#slide4{
+	background: url('../img/background-section3.png') 100% 100% no-repeat fixed;
+	background-color: #01152e;
+	background-size: 100%;
+	height: 900px;
+	padding: 200px 0;
+}
+
+#slide5{
+	background: url('../img/background-section4.png') 100% no-repeat fixed;
+	background-size: 100%;
+	background-color: #1a3554;
+	height: 900px;
+	margin: 0 auto;
+	padding: 250px 0;
+	background-size: cover;
+}
+
+#slide6{
+	background: url('../img/background-section5.png') 100% no-repeat fixed;
+	background-size: 100%;
+	height: 900px;
+	margin: 0 auto;
+	padding: 250px 0;
+}
