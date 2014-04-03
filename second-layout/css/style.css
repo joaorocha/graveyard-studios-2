@@ -134,6 +134,12 @@ section {
 	border-top: 6px solid #255087;
 }
 
+.navBar li a.active {
+	text-decoration: none;
+	color: #255087;
+	border-top: 6px solid #255087;
+}
+
 .last-child {
 	margin-right: 0px !important;
 }
