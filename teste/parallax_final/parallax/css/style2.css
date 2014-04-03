@@ -1,0 +1,140 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300);
+
+body {
+	background-color: #0d2643;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+section {
+	width: 100%;
+	height: auto;
+}
+
+.tudo {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+
+.color1 {
+	background-color: #1b324c;
+	background-image: url(../img/background-section1.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 1024px;
+}
+
+.color2 {
+	background-color: #032755;
+	background-image: url(../img/background-section2.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 750px;
+}
+
+.color3 {
+	background-color: #01152e;
+	background-image: url(../img/background-section3.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 750px;
+}
+
+.color4 {
+	background-color: #1a3554;
+	background-image: url(../img/background-section4.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 780px;
+}
+
+.color5 {
+	background-image: url(../img/background-section5.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 750px;
+}
+
+.divider {
+	background-color: #142131;
+	width: 100%;
+	height: 15px;
+	position: absolute;
+}
+
+.divider img {
+	position: absolute;
+	left: 49%;
+	top: -30px;
+}
+
+/*********************************HEADER********************************/
+header {
+	margin: 0;
+	background-image: url(../img/header-background.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	z-index: 1;
+}
+
+#logo {
+	background-image: url(../img/graveyard-logo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 840px;
+	height: 255px;
+	margin: 0px auto;
+	position: relative;
+}
+
+/*********************************HEADER********************************/
+
+
+/*********************************NAVBAR********************************/
+.navBar {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-width: 100%;
+	height: auto;
+	background-color: #071930;
+	opacity: 0.7;
+	text-align: center;
+	z-index: 999;
+}
+
+.navBar ul {
+	margin: 0;
+	padding: 0;
+}
+
+.navBar ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+.navBar ul li a {
+	margin: 0px 55px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-transform: uppercase;
+	font-size: 2.35em;
+	font-weight: 400;
+	color: #c0c9df;
+	line-height: 60px;
+	outline: none;
+	-webkit-transition: all .15s ease-in-out;
+	transition: all .15s ease-in-out;
+}
+
+.navBar ul li a:hover {
+	text-decoration: none;
+	color: #255087;
+	border-top: 6px solid #255087;
+}
+
+.last-child {
+	margin-right: 0px !important;
+}
+/*********************************NAVBAR********************************/
