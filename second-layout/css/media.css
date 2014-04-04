@@ -22,6 +22,16 @@
 		top: 180px;
 	}
 
+	#arrow {
+		background-image: url(../img/arrow-down.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		width: 128px;
+		height: 128px;
+		position: relative;
+		margin: 60px auto;
+	}
+
 	#slide2 {
 		background-color: #1b324c;
 		background-image: url(../img/background-section1.png);
@@ -85,7 +95,17 @@
 		height: 285px;
 		margin: 0px auto;
 		position: relative;
-		top: 100px;
+		margin: 60px auto;
+	}
+
+	#arrow {
+		background-image: url(../img/arrow-down.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		width: 128px;
+		height: 128px;
+		position: relative;
+		margin: 60px auto;
 	}
 
 	#slide2 {
@@ -150,7 +170,17 @@
 		height: 285px;
 		margin: 0px auto;
 		position: relative;
-		top: 100px;
+		margin: 0px auto;
+	}
+
+	#arrow {
+		background-image: url(../img/arrow-down.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		width: 128px;
+		height: 128px;
+		position: relative;
+		margin: 60px auto;
 	}
 
 	#slide2 {
@@ -222,6 +252,16 @@
 		top: 10px;
 	}
 
+	#arrow {
+		background-image: url(../img/arrow-down.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		width: 128px;
+		height: 128px;
+		position: relative;
+		margin: 60px auto;
+	}
+
 	#slide2 {
 		background-color: #1b324c;
 		background-image: url(../img/background-section1.png);
@@ -287,6 +327,16 @@
 		margin: 0px auto;
 		position: relative;
 		top: 10px;
+	}
+
+	#arrow {
+		background-image: url(../img/arrow-down.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		width: 128px;
+		height: 128px;
+		position: relative;
+		margin: 60px auto;
 	}
 
 	#slide2 {

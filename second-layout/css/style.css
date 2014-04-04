@@ -89,6 +89,17 @@ section {
 	position: relative;
 }
 
+
+#arrow {
+	background-image: url(../img/arrow-down.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 128px;
+	height: 128px;
+	position: relative;
+	margin: 0px auto;
+}
+
 /*********************************HEADER********************************/
 
 
