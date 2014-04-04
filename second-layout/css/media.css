@@ -202,7 +202,7 @@
 
 	#slide1 {
 		margin: 0;
-		background:url('../img/header-background.jpg') 100% no-repeat fixed;
+		background:url(../img/header-background.jpg) 100% no-repeat fixed;
 		background-size: 100%;
 		background-repeat: no-repeat;
 		width: 100%;
@@ -212,11 +212,11 @@
 	}
 
 	#logo {
-		background-image: url(../img/graveyard-logo1920.png);
+		background-image: url(../img/graveyard-logo.png);
 		background-size: 100%;
 		background-repeat: no-repeat;
-		width: 1200px;
-		height: 285px;
+		width: 840px;
+		height: 255px;
 		margin: 0px auto;
 		position: relative;
 		top: 10px;
@@ -269,7 +269,7 @@
 
 	#slide1 {
 		margin: 0;
-		background:url('../img/header-background.jpg') 100% no-repeat fixed;
+		background:url(../img/header-background.jpg) 100% no-repeat fixed;
 		background-size: 100%;
 		background-repeat: no-repeat;
 		width: 100%;
