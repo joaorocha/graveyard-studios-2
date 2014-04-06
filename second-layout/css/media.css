@@ -493,80 +493,11 @@
 		margin: 120px 0px;
 		padding: 30px;
 	}
-	
-	.left {
-		background-color: #000;
-		border-radius: 4px;
-		width: 100%;
-		height: auto;
-		margin: 250px 0px 0px 0px;
+
+	.tabs input#tab-4 {
+		left: 0px;
 	}
-
-	.right {
-		border-radius: 4px;
-		width: 100%;
-		height: 415px;
-		margin: 250px 0px 0px 0px;
-	}
-
-	.tabs {
-		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-		color: #c0c9df;
-	  	position: relative;   
-	  	min-height: 200px; /* This part sucks */
-	  	clear: both;
-	  	margin: 25px 0;
-	}
-	.tab {
-		float: left;
-	}
-
-		.tab label { 
-			padding: 14px 5px;
-			background-color: #071930;
-			margin-left: 0px;
-			position: relative;
-			left: 1px;
-			cursor: pointer;
-			-webkit-transition: all .15s ease-in-out;
-			transition: all .15s ease-in-out;
-		}
-
-		.tab label:hover { 
-			color: #255087;
-			border-bottom: 1px solid #255087;
-			z-index: 2;
-		}
-
-	.tab [type=radio] {
-	  	display: none;   
-	}
-
-	.content {
-	  	position: absolute;
-	  	top: 48px;
-	  	left: 0;
-	  	background-color: #071930;
-	  	border-radius: 0px 0px 4px 4px;
-	  	border-top: 1px solid #c0c9df;
-	  	right: 0;
-	  	bottom: 0;
-	  	padding: 20px;
-	  	height: 365px;
-	}
-
-		[type=radio]:checked ~ label {
-			color: #255087;
-			border-bottom: 1px solid #255087;
-		 	background-color: #071930;
-		  	z-index: 2;
-		}
-
-			[type=radio]:checked ~ label ~ .content {
-			  	z-index: 1;
-			}
-
-	.title-tab {
-		margin-top: 0px;
+	.tabs label {
+		font-size: 8px;
 	}
 }
