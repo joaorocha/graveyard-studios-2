@@ -393,6 +393,10 @@
 		margin: 170px 0px;
 		padding: 30px;
 	}
+
+	.va-container{
+		margin: 135px auto 0 auto;
+	}
 }
 
 
@@ -499,5 +503,27 @@
 	}
 	.tabs label {
 		font-size: 8px;
+	}
+
+	.va-container{
+		margin: 135px auto 0 auto;
+		width: 840px !important;
+	}
+
+	.va-slice-2{
+		background:#000 url(../img/joao1024.jpg) no-repeat center center;
+	}
+
+
+	.va-slice-4{
+		background:#000 url(../img/renan1024.jpg) no-repeat center center;
+	}
+
+	.va-title{
+		font-size:40px;
+	}
+
+	.va-nav span{
+		left:50%;
 	}
 }
