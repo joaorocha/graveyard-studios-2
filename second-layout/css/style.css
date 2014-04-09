@@ -12,6 +12,7 @@ section {
 
 a {
 	color: #50729d;
+	text-decoration: none;
 }
 
 strong {
@@ -870,6 +871,48 @@ strong {
    left: 0;
  }
 
+
 }
 
 /*********************************PORTFÓLIO*****************************/
+
+/*********************************CONTATO*******************************/
+
+.contato {
+	margin-top: 220px;
+}
+
+	.contato img {
+		height: 130px;
+		width: 100%;
+		margin: 20px 0;
+	}
+
+		.contato a p {
+			font-size: 35px;
+			margin: 55px 0px 0px 0px;
+			color: #c0c9df;
+			-webkit-transition: all .15s ease-in-out;
+			transition: all .15s ease-in-out;
+			text-decoration: none;
+		}
+
+		.contato a p:hover {
+			color: #255087;
+			text-decoration: none;
+		}
+
+/*********************************CONTATO*******************************/
+
+
+
+.footer-grave {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	float: left;
+	text-align: center;
+	background-color: #000;
+	z-index: 9999;
+}
