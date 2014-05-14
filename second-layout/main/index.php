@@ -54,7 +54,7 @@
           <!--Logo-->
           <div class="container">
             <div class="row">
-              <div class="col-md-12"> 
+              <div class="col-md-12">
                 <div id="logo"></div>
               </div>
             </div>
@@ -149,15 +149,15 @@
                 <section class="tabs">
                   <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked="checked" />
                   <label for="tab-1" class="tab-label-1">Jogos</label>
-          
+
                   <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
                   <label for="tab-2" class="tab-label-2">WEB</label>
-            
+
                   <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3" />
                   <label for="tab-3" class="tab-label-3">Publicidade</label>
-                  
+
                   <div class="clear-shadow"></div>
-            
+
                   <div class="content">
                     <div class="content-1">
                       <h2>Jogos</h2>
@@ -216,15 +216,15 @@
                 <section class="tabs2">
                   <input id="tab2-1" type="radio" name="radio-set2" class="tab-selector2-1" checked="checked"/>
                   <label for="tab2-1" class="tab-label2-1">Jogos</label>
-          
+
                   <input id="tab2-2" type="radio" name="radio-set2" class="tab-selector2-2" />
                   <label for="tab2-2" class="tab-label2-2">WEB</label>
-            
+
                   <input id="tab2-4" type="radio" name="radio-set2" class="tab-selector2-4" />
                   <label for="tab2-4" class="tab-label2-4">Publicidade</label>
-                  
+
                   <div class="clear-shadow"></div>
-            
+
                   <div class="content2">
                     <div class="content2-1">
                       <h2 class="text-center">Jogos</h2>
@@ -292,9 +292,9 @@
                     <p>Versão: 1.2</p>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Download Windows</button>
-                    <button type="button" class="btn btn-primary">Download Linux</button>
-                    <button type="button" class="btn btn-primary">Download MAC OS</button>
+                    <a href="files/RigomorDashFlee.rar"><button type="button" class="btn btn-primary">Windows</button></a>
+                    <a href="files/RigomorDashFlee.tar.gz"><button type="button" class="btn btn-primary">Linux</button></a>
+                    <a href="files/RigomorDashFlee.zip"><button type="button" class="btn btn-primary">MAC OS</button></a>
                   </div>
                 </div>
               </div>
@@ -373,7 +373,7 @@
                           <li><a>Sobre</a></li>
                           <li><a>Portfolio</a></li>
                         </ul>
-                      </div>  
+                      </div>
                     </div>
                     <div class="va-slice va-slice-3">
                       <h3 class="va-title">Escritor</h3>
@@ -383,7 +383,7 @@
                           <li><a>Sobre</a></li>
                           <li><a>Portfolio</a></li>
                         </ul>
-                      </div>  
+                      </div>
                     </div>
                     <div class="va-slice va-slice-4">
                       <h3 class="va-title">Game Designer</h3>
@@ -393,7 +393,7 @@
                           <li><a>Sobre</a></li>
                           <li><a>Portfolio</a></li>
                         </ul>
-                      </div>  
+                      </div>
                     </div>
                   </div>
                 </div><!--END Vertical Accordion-->
@@ -412,7 +412,7 @@
                     <p>Desenvolvedor;</p>
                     <p>Game Designer;</p>
                     <p>Level Designer;</p>
-                    <p>Coffe Maker;</p>
+                    <p>Fazedor de café;</p>
 
                     <p><strong>Habilidades:</strong></p>
 
@@ -571,14 +571,6 @@
                       </div>
                     </p>
 
-                    <p>C++:
-                      <div class="progress progress-striped active">
-                        <div class="progress-bar progress-bar-danger"  role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                          <span class="sr-only">45% Complete</span>
-                        </div>
-                      </div>
-                    </p>
-
                     <p>Unity3D:
                       <div class="progress progress-striped active">
                         <div class="progress-bar"  role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
@@ -614,7 +606,7 @@
 
                     <p>Cultura Inutil:
                       <div class="progress progress-striped active">
-                        <div class="progress-bar"  role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                        <div class="progress-bar"  role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
                           <span class="sr-only"></span>
                         </div>
                       </div>
@@ -633,7 +625,7 @@
                     <p>Programador;</p>
                     <p>Game Designer;</p>
                     <p>Level Designer;</p>
-                    <p>Servir cafezinho;</p>
+                    <p>Servidor de cafezinho;</p>
 
                     <p><strong>Habilidades:</strong></p>
 
@@ -772,7 +764,7 @@
 
     <!--Script Bootstrap-->
     <script src="js/bootstrap.min.js"></script>
-    
+
 
 
     <script type="text/javascript">
