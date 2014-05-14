@@ -29,6 +29,7 @@
 
   </head>
   <body>
+    <?php include_once("analyticstracking.php") ?>
     <!--Container-->
     <div class="tudo">
 
