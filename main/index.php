@@ -534,7 +534,7 @@
 
                     <p>Discutir com o Rick:
                       <div class="progress progress-striped active">
-                        <div class="progress-bar"  role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                        <div class="progress-bar progress-bar-danger"  role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
                           <span class="sr-only"></span>
                         </div>
                       </div>
@@ -575,7 +575,7 @@
 
                     <p>Unity3D:
                       <div class="progress progress-striped active">
-                        <div class="progress-bar"  role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                        <div class="progress-bar progress-bar-danger"  role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
                           <span class="sr-only"></span>
                         </div>
                       </div>
@@ -584,7 +584,7 @@
 
                     <p>Bash:
                       <div class="progress progress-striped active">
-                        <div class="progress-bar progress-bar-danger"  role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                        <div class="progress-bar"  role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
                           <span class="sr-only"></span>
                         </div>
                       </div>
@@ -592,7 +592,7 @@
 
                     <p>Criação de Personagens:
                       <div class="progress progress-striped active">
-                        <div class="progress-bar"  role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                        <div class="progress-bar progress-bar-danger"  role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
                           <span class="sr-only"></span>
                         </div>
                       </div>
@@ -600,7 +600,7 @@
 
                     <p>Procrastinação:
                       <div class="progress progress-striped active">
-                        <div class="progress-bar progress-bar-danger"  role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                        <div class="progress-bar"  role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
                           <span class="sr-only"></span>
                         </div>
                       </div>
@@ -608,7 +608,7 @@
 
                     <p>Cultura Inutil:
                       <div class="progress progress-striped active">
-                        <div class="progress-bar"  role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                        <div class="progress-bar progress-bar-danger"  role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
                           <span class="sr-only"></span>
                         </div>
                       </div>
