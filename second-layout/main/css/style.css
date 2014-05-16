@@ -245,11 +245,15 @@ strong {
 	}
 
 	.tabs input#tab-2{
-		left: 240px;
+		left: 140px;
 	}
 
 	.tabs input#tab-3{
-		left: 380px;
+		left: 280px;
+	}
+
+	.tabs input#tab-4{
+		left: 420px;
 	}
 
 	.tabs label {
@@ -262,7 +266,7 @@ strong {
 		padding: 0 0px;
 		float: left;
 		display: block;
-		width: 33.3333333%;
+		width: 25%;
 		color: #c0c9df;
 		text-transform: uppercase;
 		font-weight: bold;
@@ -300,6 +304,10 @@ strong {
 }
 
 .tab-label-3 {
+    z-index: 2;
+}
+
+.tab-label-4 {
     z-index: 1;
     border-radius: 0px 4px 0px 0px;
 }
@@ -574,7 +582,7 @@ strong {
 		padding: 0 0px;
 		float: left;
 		display: block;
-		width: 33.333333%;
+		width: 25%;
 		color: #c0c9df;
 		text-transform: uppercase;
 		font-weight: bold;
@@ -659,10 +667,10 @@ strong {
 	}
 
 	.content2 img {
-		width: 15%;
+		width: 15.7%;
 		height: 15.7%;
 		float: left;
-		margin: 8px;
+		margin: 5px;
 		cursor: pointer;
 	}
 
