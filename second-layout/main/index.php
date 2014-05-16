@@ -30,6 +30,7 @@
   </head>
   <body>
     <?php include_once("analyticstracking.php") ?>
+    <?php include_once("konami.php") ?>
     <!--Container-->
     <div class="tudo">
 
