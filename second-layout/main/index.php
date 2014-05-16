@@ -293,9 +293,15 @@
                     <p>Versão: 1.2</p>
                   </div>
                   <div class="modal-footer">
+<<<<<<< HEAD:second-layout/main/index.php
                     <a href="files/RigomorDashFlee.rar"><button type="button" class="btn btn-primary">Windows</button></a>
                     <a href="files/RigomorDashFlee.tar.gz"><button type="button" class="btn btn-primary">Linux</button></a>
                     <a href="files/RigomorDashFlee.zip"><button type="button" class="btn btn-primary">MAC OS</button></a>
+=======
+                    <button type="button" class="btn btn-primary">Download 1</button>
+                    <button type="button" class="btn btn-primary">Download 2</button>
+                    <button type="button" class="btn btn-primary">Download 3</button>
+>>>>>>> parent of 9649826... Equipe.:second-layout/main/index.html
                   </div>
                 </div>
               </div>
@@ -377,7 +383,7 @@
                       </div>
                     </div>
                     <div class="va-slice va-slice-3">
-                      <h3 class="va-title">Escritor</h3>
+                      <h3 class="va-title">Programador</h3>
                       <div class="va-content">
                         <p>Pedro Ricardo</p>
                         <ul>
@@ -405,7 +411,7 @@
               <div class="col-md-3">
                 <div class="wid">
                   <div class="wid-header">
-                    <h3>Eric</h3><img src="img/eric-capa.jpg" class="img-rounded img-responsive">
+                    <h3>Eric</h3><img src="img/desenvolvimento.jpg" class="img-rounded img-responsive">
                   </div>
                   <div class="wid-body">
                     <p><strong>Funções:</strong></p>
@@ -544,36 +550,37 @@
               <div class="col-md-3">
                 <div class="wid">
                   <div class="wid-header">
-                    <h3>Rick</h3><img src="img/rick-capa.jpg" class="img-rounded img-responsive">
+                    <h3>Rick</h3><img src="img/desenvolvimento.jpg" class="img-rounded img-responsive">
                   </div>
                   <div class="wid-body">
                     <p><strong>Funções:</strong></p>
 
-                    <p>Escritor;</p>
-                    <p>Desenvolvedor;</p>
-                    <p>Game Designer;</p>
-                    <p>Enxedor de saco;</p>
+                    <p>Programador;</p>
+                    <p>Programador Programador;</p>
+                    <p>Programador Programador Programador;</p>
+                    <p>Programador Programador Programador Programador;</p>
 
                     <p><strong>Habilidades:</strong></p>
 
-                    <p>Criatividade:
+                    <p>PHP:
                       <div class="progress progress-striped active">
-                        <div class="progress-bar progress-bar-danger"  role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                          <span class="sr-only"></span>
+                        <div class="progress-bar progress-bar-danger"  role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
+                          <span class="sr-only">45% Complete</span>
                         </div>
                       </div>
                     </p>
 
-                    <p>Python:
+                    <p>Delphi:
                       <div class="progress progress-striped active">
-                        <div class="progress-bar"  role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-                          <span class="sr-only"></span>
+                        <div class="progress-bar"  role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                          <span class="sr-only">45% Complete</span>
                         </div>
                       </div>
                     </p>
 
                     <p>Unity3D:
                       <div class="progress progress-striped active">
+<<<<<<< HEAD:second-layout/main/index.php
                         <div class="progress-bar"  role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
                           <span class="sr-only"></span>
                         </div>
@@ -609,6 +616,10 @@
                       <div class="progress progress-striped active">
                         <div class="progress-bar"  role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
                           <span class="sr-only"></span>
+=======
+                        <div class="progress-bar"  role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                          <span class="sr-only">45% Complete</span>
+>>>>>>> parent of 9649826... Equipe.:second-layout/main/index.html
                         </div>
                       </div>
                     </p>
@@ -618,7 +629,7 @@
               <div class="col-md-3">
                 <div class="wid">
                   <div class="wid-header">
-                    <h3>Renan</h3><img src="img/renan-capa.jpg" class="img-rounded img-responsive">
+                    <h3>Renan</h3><img src="img/desenvolvimento.jpg" class="img-rounded img-responsive">
                   </div>
                   <div class="wid-body">
                     <p><strong>Funções:</strong></p>
