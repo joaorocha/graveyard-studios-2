@@ -711,6 +711,10 @@
                     <input type="text" class="form-control" id="InputName" placeholder="Insira seu nome" name="name">
                   </div>
                   <div class="form-group">
+                    <label for="InputEMail">E-mail</label>
+                    <input type="email" class="form-control" id="InputEmail" placeholder="Insira seu e-mail" name="mail">
+                  </div>
+                  <div class="form-group">
                     <label for="InputSubject">Assunto</label>
                     <input type="text" class="form-control" id="InputSubject" placeholder="Insira o assunto da mensagem" name="subject">
                   </div>
