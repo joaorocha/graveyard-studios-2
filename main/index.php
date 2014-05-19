@@ -705,18 +705,18 @@
             <div class="row">
               <div class="col-md-4">
                 <h3 class="text-center">Feedback</h3>
-                <form role="form">
+                <form role="form" action="mail.php" method="POST">
                   <div class="form-group">
-                    <label for="InputNome">Nome</label>
-                    <input type="text" class="form-control" id="exampleInputNome" placeholder="Insira seu nome">
+                    <label for="InputName">Nome</label>
+                    <input type="text" class="form-control" id="InputName" placeholder="Insira seu nome" name="name">
                   </div>
                   <div class="form-group">
-                    <label for="InputEmail">E-mail</label>
-                    <input type="email" class="form-control" id="exampleInputEmail" placeholder="Insira seu e-mail">
+                    <label for="InputSubject">Assunto</label>
+                    <input type="text" class="form-control" id="InputSubject" placeholder="Insira o assunto da mensagem" name="subject">
                   </div>
                   <div class="form-group">
-                    <label for="Mensagem">Mensagem</label>
-                    <textarea class="form-control" rows="8"></textarea>
+                    <label for="InputMessage">Mensagem</label>
+                    <textarea class="form-control" rows="8" name="message"></textarea>
                   </div>
                   <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
