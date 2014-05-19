@@ -735,7 +735,7 @@
               <div class="col-md-4">
                 <h3 class="text-center">E-mail</h3>
                 <img src="img/google-logo.png" class="google">
-                <p class="text-center">contato@graveyard.com</p>
+                <p class="text-center">contato@graveyard-studios.com</p>
               </div>
             </div>
           </div>
