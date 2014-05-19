@@ -1,0 +1,53 @@
+body {
+  background-color: #10203a;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ebf3f6;
+}
+strong {
+  color: #435e69;
+}
+.transition {
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+a {
+  color: #a4c6cf;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+a:hover {
+  color: #435e69;
+}
+button {
+  background-color: transparent;
+  border: 2px solid #435e69;
+  color: #ebf3f6;
+  padding: 10px;
+  width: 150px;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: none;
+}
+button:hover {
+  background-color: #435e69;
+  color: #ebf3f6;
+  border-radius: 4px;
+}
+.panel {
+  background-color: #1d2f43;
+  border: #2e4054;
+}
+.panel-default > .panel-heading {
+  background-color: #102739;
+  border-color: #2e4054;
+}
+.panel-heading h3 {
+  color: #ebf3f6;
+}

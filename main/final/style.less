@@ -1,0 +1,77 @@
+//Colors
+@color_blue-darkest: #10203a;
+@color_blue-darker:  #102739;
+@color_blue-dark:    #1d2f43;
+@color_gray-dark:	 #435e69;
+@color_gray:         #a4c6cf;
+@color_light:        #ebf3f6;
+
+
+
+
+
+
+
+
+body {
+	background-color: @color_blue-darkest;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: @color_light;
+}
+
+strong {
+	color: @color_gray-dark;
+}
+
+.transition {
+	-webkit-transition: all .15s ease-in-out;
+	transition: all .15s ease-in-out;
+}
+
+a {
+	color: @color_gray;
+	.transition;
+}
+
+a:hover {
+	color: @color_gray-dark;
+}
+
+button {
+	background-color: transparent;
+	border: 2px solid @color_gray-dark;
+	color: @color_light;
+	padding: 10px;
+	width: 150px;
+	.transition;
+	outline: none;
+}
+
+button:hover {
+	background-color: @color_gray-dark;
+	color: @color_light;
+	border-radius: 4px;
+}
+
+.panel {
+	background-color: @color_blue-dark;
+	border: @color_blue-dark + #111111;
+}
+
+.panel-default>.panel-heading {
+	background-color: @color_blue-darker;
+	border-color: @color_blue-dark + #111111;
+}
+
+.panel-heading h3 {
+	color: @color_light;
+}
+
