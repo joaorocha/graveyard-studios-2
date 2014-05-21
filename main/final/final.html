@@ -32,37 +32,191 @@
     <!--Tudo-->
     <div class="tudo">
 
-      <div class="slide1">
+      <!--Header-->
+      <div class="slide1" id="slide1">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <div id="logo" class="text-center"></div>
+              <div id="logo"></div>
+              <a href="#home" id="arrow-down"></a>
             </div>
           </div>
         </div>
-      </div>
+      </div><!--END Header-->
 
       <div id="header">
-        <div id="logo1" class="pull-left">
-          <a href="#slide1"><img src="img/minilogo.png"></a>
-        </div>
+        
         <!--Barra de navegação-->
-        <div class="navBar">
+        <div id="navBar">
+          <div id="logo1" class="pull-left">
+              <a href="#slide1"><img src="img/minilogo.png"></a>
+            </div>
           <ul>
-            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#servicos">Serviços</a></li>
             <li><a href="#portfolio">Portfólio</a></li>
             <li><a href="#equipe">Equipe</a></li>
-            <li><a href="#contato">Contato</a></li>
           </ul>
         </div>
       </div><!--END Barra de navegação-->
-    </div><!--END Tudo-->
     
+      <!--Seção Home-->
+      <div class="box" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center">Home</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Graveyard Studios</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <p>Empresa com foco voltado e sua grande maioria para o desenvolvimento de jogos, a Graveyard Studios tem como objetivo o entretenimento de seus usuários. Com seus projetos desenvolvidos sem grandes intensões financeiras, a empresa visa a criação de jogos que agrade a todos os gostos mantendo a idéia de que tudo aquilo que é feito com dedicação tende a ser bom e a melhorar a cada dia.</p>
+
+              <p>Fundada em 5 de outubro de 2013, os co-fundadores da Graveyard decidiram em seguir um sonho de infância em comum, e se juntaram para então seguir a carreira de desenvolvedores de jogos.</p>
+
+              <p>Com muitos planos para o futuro como os jogos <strong>Westeros Online</strong>, um jogo com de categoria RPG via browser click and play e com a temática de Game Of Thrones e <strong>Racconection</strong> um jogo de categoria plataforma com temática única, a Graveyard Studios pretende manter um ritmo de desenvolvimento frequente sem deixar os usuários sem atualização.</p>
+
+              <p>Não só apenas com jogos, mas a Graveyard Studios também desenvolve templates HTML, cartões de visita, banners, panfletos e até mesmo sistemas comums.</p>
+            </div>
+            <div class="col-md-6">
+              <img src="img/capa.jpg" class="img-responsive">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <h3>Rigomor</h3>
+                <p>Há muito tempo atrás, uma guerra devastadora eliminou quase todas as criaturas vivas do planeta Rigomor. Alguns bebês foram resgatados a tempo em um dos berçários e foram enviados pelo espaço em uma cápsula que os manteve vivos e inanimados por anos, tendo como seu destino final a Terra. Entretanto, somente no ano terráqueo de 2013 eles descobriram o que houve em seu passado e juntos formaram o que seria conhecido posteriormente como <strong>Graveyard Studios</strong>, usando jogos como o principal meio de compartilhar com o mundo, a história, ciência e cultura de seu planeta natal.</p>
+            </div>
+          </div>
+        </div>
+      </div><!--END Seção Home-->
 
 
+      <!--Parallax 1-->
+      <div class="end-section"></div>
+      <div class="overlay"></div>
+      <div id="slide2"></div>
+      <!--END Parallax 1-->
 
 
+      <!--Seção Serviços-->
+      <div class="box" id="servicos">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center">Serviços</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <!--FlexSlider-->
+              <div class="flexslider">
+                <ul class="slides">
+                  <li>
+                    <img src="img/jogos.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/web.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/img-p.jpg" />
+                  </li>
+                </ul>
+              </div>
+            </div><!--END FlexSlider-->
+            <div class="col-md-6">
+              <!--Tabs1-->
+              <section class="tabs">
+                <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked="checked" />
+                <label for="tab-1" class="tab-label-1">Jogos</label>
+
+                <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
+                <label for="tab-2" class="tab-label-2">WEB</label>
+
+                <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3" />
+                <label for="tab-3" class="tab-label-3">Publicidade</label>
+
+                <div class="clear-shadow"></div>
+
+                <div class="content">
+                  <div class="content-1">
+                    <h2>Jogos</h2>
+                    <p>Jogos desenvolvidos para browsers, android, IOS, Windows, Linux e MAC, são uma perfeita escolha para passar o tempo se divertindo.</p>
+                    <p>Todos os jogos são gratuitos e podem ser baixados em seu computador ou celular a qualquer momento.</p>
+                  </div>
+                  <div class="content-2">
+                    <h2>WEB</h2>
+                    <p>Templates, temas e plugins desenvolvidos em cima do twitter bootstrap, uma ótima pção para adaptar um site completamente responsivo sem perda de tempo desnecessária. Além de també realizar trabalhos de Webdesigner próprio, onde você pode realizar junto conosco um site da forma que bem desejar.</p>
+                    <p>Todos a seção de WEB é gratuita e podem ser baixados e alterados* em seu computador a qualquer momento.</p><br>
+                    <p>*Leia os arquivos de README em cada template e entenda todo o licenciamento de alterações.</p>
+                  </div>
+                  <div class="content-3">
+                  <h2>Publicidade</h2>
+                  <p>Cartões de visita, banners e panfletos, se precisa divulgar sua marca e/ou empresa, a GraveyardStudios também realiza trabalhos para você.</p>
+                  <p>Todos os trabalhos de publicidade já realizados podem ser visualizados no nosso <a href="#portfolio">portfólio</a>.</p>
+                  </div>
+                </div>
+              </section><!--END Tabs1-->
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Como solicitar um serviço?</h3>
+              <p>Precisa de algum de nossos serviços? Entre em contato conosco, e confira todas as propostas de nossa empresa.</p>
+            </div>
+          </div>
+        </div>
+      </div><!--END Seção Serviços-->
+
+
+      <!--Parallax 2-->
+      <div class="end-section"></div>
+      <div class="overlay"></div>
+      <div id="slide3"></div>
+      <!--END Parallax 2-->
+
+
+      <!--Seção Portfólio-->
+      <div class="box" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center">Portfólio</h1>
+            </div>
+          </div>
+        </div>
+      </div><!--END Seção Portfólio-->
+
+
+      <!--Parallax 3-->
+      <div class="end-section"></div>
+      <div class="overlay"></div>
+      <div id="slide4"></div>
+      <!--END Parallax 3-->
+
+
+      <!--Seção Equipe-->
+      <div class="box" id="equipe">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center">HOME</h1>
+            </div>
+          </div>
+        </div>
+      </div><!--END Seção Equipe-->
+
+
+      <!--Parallax 4-->
+      <div class="end-section"></div>
+      <div class="overlay"></div>
+      <div id="slide5"></div>
+      <!--END Parallax 4-->
 
 
     <h1>Heading text</h1>
@@ -101,5 +255,35 @@
       </div>
     </div>
 
+
+
+    </div><!--END Tudo-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+    <script src="js/app.js"></script>
+
+    <!--Scripts VAccordion-->
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="js/jquery.vaccordion.js"></script>
+
+    <!--Scripts FlexSlider-->
+    <script src="js/jquery.flexslider-min.js"></script>
+
+    <!--Script Bootstrap-->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+          animation: "slide"
+        });
+      });
+    </script>
+
+    
   </body>
 </html>

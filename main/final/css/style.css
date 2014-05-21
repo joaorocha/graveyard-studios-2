@@ -8,7 +8,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+legend {
   color: #ebf3f6;
 }
 strong {
@@ -65,6 +66,17 @@ button:hover {
   background-repeat: no-repeat;
   width: 840px;
   height: 255px;
+  margin: 17% 10%;
+}
+#arrow-down {
+  position: absolute;
+  background: url(../img/arrow-down.png) 100% no-repeat;
+  background-size: 100%;
+  top: 200%;
+  left: 45%;
+  width: 128px;
+  height: 128px;
+  text-decoration: none;
 }
 /****************************************HEADER******************************/
 /****************************************BARRA DE NAVEGAÇÃO******************************/
@@ -72,26 +84,28 @@ button:hover {
   margin-left: 50px;
   margin-right: 30px;
 }
-.navBar {
+#navBar {
+  position: fixed;
+  top: 0;
   z-index: 8000;
   width: 100%;
   height: 50px;
   background-color: #102739;
   border-bottom: 1px solid #435e69;
 }
-.navBar ul {
+#navBar ul {
   display: block;
   height: 44px;
   margin: 0;
   letter-spacing: -0.31em;
 }
-.navBar ul li {
+#navBar ul li {
   display: inline-block;
   width: auto;
   height: 42px;
   letter-spacing: normal;
 }
-.navBar ul li a {
+#navBar ul li a {
   font-family: 'Open Sans';
   font-size: 1.40em;
   line-height: 35px;
@@ -110,11 +124,233 @@ button:hover {
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
-.navBar ul li a:hover {
-  border-top: 4px solid #435e69;
+#navBar ul li a:hover {
+  text-decoration: overline !important;
   font-weight: 400;
   text-shadow: none;
-  padding-top: 0;
   text-decoration: none;
 }
+.active {
+  color: #435e69;
+  display: block;
+  text-decoration: overline;
+}
+.box {
+  padding: 50px;
+  height: 800px;
+}
 /****************************************BARRA DE NAVEGAÇÃO******************************/
+/****************************************PARALLAX******************************/
+.end-section {
+  width: 100%;
+  height: 5px;
+  background-color: #435e69;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background: url(../img/video-cover.01.png);
+}
+#slide1,
+#slide2 {
+  width: 100%;
+}
+#slide1 {
+  background: url(../img/header-background.jpg) 100% no-repeat fixed;
+  height: 850px;
+  margin: 0;
+  background-size: cover;
+}
+.slide {
+  margin: 0;
+  background-size: 100%;
+  height: 400px;
+  overflow: hidden;
+  width: 100%;
+  background-size: cover;
+}
+#slide2 {
+  background: url(../img/background-section1.jpg) 100% no-repeat fixed;
+  margin: 0;
+  background-size: 100%;
+  height: 400px;
+  overflow: hidden;
+  width: 100%;
+  background-size: cover;
+}
+#slide3 {
+  background: url(../img/background-section2.jpg) 100% no-repeat fixed;
+  margin: 0;
+  background-size: 100%;
+  height: 400px;
+  overflow: hidden;
+  width: 100%;
+  background-size: cover;
+}
+#slide4 {
+  background: url(../img/background-section3.jpg) 100% no-repeat fixed;
+  margin: 0;
+  background-size: 100%;
+  height: 400px;
+  overflow: hidden;
+  width: 100%;
+  background-size: cover;
+}
+#slide5 {
+  background: url(../img/background-section4.jpg) 100% no-repeat fixed;
+  margin: 0;
+  background-size: 100%;
+  height: 400px;
+  overflow: hidden;
+  width: 100%;
+  background-size: cover;
+}
+/****************************************PARALLAX******************************/
+/*********************************SERVIÇOS******************************/
+.tabs {
+  position: relative;
+  margin: 0px auto;
+  width: 100%;
+}
+.tabs input {
+  position: absolute;
+  z-index: 1000;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  cursor: pointer;
+}
+.tabs input#tab-2 {
+  left: 240px;
+}
+.tabs input#tab-3 {
+  left: 380px;
+}
+.tabs label {
+  background: #102739;
+  margin-bottom: 2px;
+  font-size: 15px;
+  line-height: 40px;
+  height: 40px;
+  position: relative;
+  padding: 0 0px;
+  float: left;
+  display: block;
+  width: 33.3333333%;
+  color: #c0c9df;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 2px 0 2px rgba(0, 0, 0, 0.1), -2px 0 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.tabs label:after {
+  content: '';
+  background: #435e69;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  display: block;
+}
+.tabs input:hover + label {
+  background: #435e69;
+}
+.tabs label:first-of-type {
+  z-index: 4;
+  box-shadow: 2px 0 2px rgba(0, 0, 0, 0.1);
+}
+.tab-label-1 {
+  border-radius: 4px 0px 0px 0px;
+}
+.tab-label-2 {
+  z-index: 3;
+}
+.tab-label-3 {
+  z-index: 1;
+  border-radius: 0px 4px 0px 0px;
+}
+.tabs input:checked + label {
+  background: #435e69;
+  z-index: 6;
+  -webkit-animation: page 0.2s linear;
+  -moz-animation: page 0.2s linear;
+  -ms-animation: page 0.2s linear;
+  -o-animation: page 0.2s linear;
+  animation: page 0.2s linear;
+}
+.clear-shadow {
+  clear: both;
+}
+.content {
+  background: rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 100%;
+  height: 308px;
+  z-index: 5;
+  overflow: hidden;
+  box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 4px 4px;
+}
+.content div {
+  position: absolute;
+  top: 0;
+  padding: 10px 40px;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+.content-1,
+.content-3 {
+  -webkit-transform: translateX(-250px);
+  -moz-transform: translateX(-250px);
+  -o-transform: translateX(-250px);
+  -ms-transform: translateX(-250px);
+  transform: translateX(-250px);
+}
+.content-2,
+.content-4 {
+  -webkit-transform: translateX(250px);
+  -moz-transform: translateX(250px);
+  -o-transform: translateX(250px);
+  -ms-transform: translateX(250px);
+  transform: translateX(250px);
+}
+.tabs input.tab-selector-1:checked ~ .content .content-1,
+.tabs input.tab-selector-2:checked ~ .content .content-2,
+.tabs input.tab-selector-3:checked ~ .content .content-3,
+.tabs input.tab-selector-4:checked ~ .content .content-4 {
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+  z-index: 100;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  -webkit-transition: all ease-out 0.2s 0.1s;
+  -moz-transition: all ease-out 0.2s 0.1s;
+  -o-transition: all ease-out 0.2s 0.1s;
+  -ms-transition: all ease-out 0.2s 0.1s;
+  transition: all ease-out 0.2s 0.1s;
+}
+.content div p {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+  margin: 0;
+  color: #fff;
+  padding-left: 15px;
+  border-left: 8px solid rgba(191, 201, 223, 0.1);
+}
+/*********************************SERVIÇOS******************************/
