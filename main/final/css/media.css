@@ -155,7 +155,10 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1365px) {
 
-
+	.box {
+		padding: 30px;
+	}
+	
 	#logo {
 		background-image: url(../img/graveyard-logo.png);
 		background-size: 100%;
@@ -166,15 +169,19 @@
 		position: relative;
 	}
 
-	#arrow {
-		background-image: url(../img/arrow-down.png);
-		background-size: 100%;
-		background-repeat: no-repeat;
-		width: 128px;
-		height: 128px;
-		position: relative;
-		margin: 0px auto;
-		right: 120px;
+	#arrow-down {
+		position: absolute;
+	    background: url(../img/arrow-down.png) 100% no-repeat;
+	    background-size: 100%;
+	    top: 100%;
+		left: 43%;
+	    width: 128px;
+	    height: 128px;
+	    text-decoration: none;
+	}
+
+	.content2 img {
+		width: 14.8%;
 	}
 
 	.tabs input#tab-4 {
@@ -189,12 +196,12 @@
 		width: 840px !important;
 	}
 
-	.va-slice-2{
-		background:#000 url(../img/joao1024.jpg) no-repeat center center;
+	.va-slice-3{
+		background:#000 url(../img/equipe/accordion/joao1024.jpg) no-repeat center center;
 	}
 
-	.va-slice-4{
-		background:#000 url(../img/renan1024.jpg) no-repeat center center;
+	.va-slice-5{
+		background:#000 url(../img/equipe/accordion/renan1024.jpg) no-repeat center center;
 	}
 
 	.va-title{

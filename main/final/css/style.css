@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300);
+/********************************/
 body {
   background-color: #10203a;
 }
@@ -9,7 +10,8 @@ h3,
 h4,
 h5,
 h6,
-legend {
+legend,
+form {
   color: #ebf3f6;
 }
 strong {
@@ -63,6 +65,21 @@ a:hover {
 }
 .panel-body {
   height: 420px;
+}
+.back {
+  position: fixed;
+  z-index: 99999;
+  background: url(../img/arrow-up.png) 100% no-repeat;
+  background-size: 100%;
+  right: 10px;
+  top: 90%;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+.back:hover {
+  text-decoration: none;
 }
 /****************************************HEADER******************************/
 .slide1 {
@@ -151,6 +168,11 @@ a:hover {
   height: 800px;
 }
 /****************************************BARRA DE NAVEGAÇÃO******************************/
+/****************************************HOME******************************/
+#home {
+  height: auto !important;
+}
+/****************************************HOME******************************/
 /****************************************PARALLAX******************************/
 .end-section {
   width: 100%;
@@ -369,6 +391,9 @@ a:hover {
 #portfolio {
   height: auto !important;
 }
+.panel-body img {
+  margin-bottom: 10px;
+}
 .tabs2 {
   position: relative;
   margin: 50px auto;
@@ -546,6 +571,7 @@ a:hover {
 }
 .inpt {
   background-color: #fff;
+  color: #000;
   height: 60px;
   width: 100%;
   padding: 7px;
@@ -688,3 +714,43 @@ a:hover {
   opacity: 1.0;
 }
 /*********************************EQUIPE********************************/
+/***********************************SOCIAL*******************************/
+.social-media {
+  padding: 50px;
+  background-color: #435e69;
+}
+.redes a img {
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+.redes a img:hover {
+  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+/***********************************SOCIAL*******************************/
+/***********************************FOOTER*******************************/
+.footer {
+  padding: 50px;
+}
+.mapa {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+.mapa li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.footer-grave {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  float: left;
+  text-align: center;
+  background-color: #000;
+  z-index: 9999;
+}
+/***********************************FOOTER*******************************/
